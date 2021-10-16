@@ -4,60 +4,91 @@
 
 **/
 
-html{
+html {
   font-size: 3em;
 }
 
-body{
+body {
   position: relative;
   background-image: url(https://c.wallhere.com/photos/3b/bf/gradient_abstract-1364737.jpg!d);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
 }
 
-header{
+header {
   display: flex;
   width: 100vw;
 }
 
-main{
+main {
   width: 90vw;
   height: 80vh;
   margin: auto;
 }
 
-footer{
+footer {
   width: 90vw;
   height: 10vh;
   margin: auto;
 }
 
-#header-left{
-  position: absolute;
-width: 317px;
-height: 55px;
-left: 63px;
-top: 35px;
-
-font-family: 'Rakkas';
-font-style: normal;
-font-weight: normal;
-font-size: 48px;
-line-height: 72px;
-
-color: #FFFFFF;
+#header-left {
+  position: fixed;
+  width: 317px;
+  height: 55px;
+  left: 63px;
+  top: 35px;
+  font-family: 'Rakkas';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 72px;
+  color: #FFFFFF;
 }
 
-#header-middle{
-position: absolute;
-width: 536px;
-height: 53px;
-left: 705px;
-top: 85px;
-text-align: justify;
-font-family: 'Rakkas';
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 54px;
+#header-middle {
+  position: fixed;
+  width: 536px;
+  height: 53px;
+  left: 705px;
+  top: 85px;
+  text-align: justify;
+  font-family: 'Rakkas';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 54px;
+  color: #ffffff;
+}
 
-color: #ffffff;
+.btn55{
+  display: inline-block;
+  font-size: 1.1em;
+  border-radius: 10px;
+  transition: all .5s;
+  filter: hue-rotate(0);
+  color: #FFF;
+  text-decoration: none;
+  width: 100px;
+  height: 200px;
+  background: gold;
+  box-shadow: 0 -200px 100px -120px crimson inset;
+  border: 10px solid white;
+  animation: background 3s infinite alternate;
+}
+
+#wrappingforbuttons{
+   
+}
+
+@keyframes background {
+  50% {
+    background: skyblue;
+    box-shadow: 0 -200px 100px -100px yellowgreen inset;
+  }
 }
