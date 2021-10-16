@@ -1,0 +1,63 @@
+/**
+
+  швблон 01
+
+**/
+
+html{
+  font-size: 3em;
+}
+
+body{
+  position: relative;
+  background-image: url(https://c.wallhere.com/photos/3b/bf/gradient_abstract-1364737.jpg!d);
+}
+
+header{
+  display: flex;
+  width: 100vw;
+}
+
+main{
+  width: 90vw;
+  height: 80vh;
+  margin: auto;
+}
+
+footer{
+  width: 90vw;
+  height: 10vh;
+  margin: auto;
+}
+
+#header-left{
+  position: absolute;
+width: 317px;
+height: 55px;
+left: 63px;
+top: 35px;
+
+font-family: 'Rakkas';
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 72px;
+
+color: #FFFFFF;
+}
+
+#header-middle{
+position: absolute;
+width: 536px;
+height: 53px;
+left: 705px;
+top: 85px;
+text-align: justify;
+font-family: 'Rakkas';
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 54px;
+
+color: #ffffff;
+}
