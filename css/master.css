@@ -73,7 +73,8 @@ footer {
   outline:none;
   cursor: pointer;
   margin-left: 5;
-  color: #ffffff;
+  color: white;
+  font-family: 'Rakkas';
 }
 
 .btn_songs{
@@ -82,7 +83,8 @@ footer {
   outline:none;
   cursor: pointer;
   margin-left: 5;
-  color: #ffffff;
+  color: white;
+  font-family: 'Rakkas';
 }
 
 .btn_videos{
@@ -91,7 +93,8 @@ footer {
   outline:none;
   cursor: pointer;
   margin-left: 5;
-  color: #ffffff;
+  color: white;
+  font-family: 'Rakkas';
 }
 
 .btn_meanings{
@@ -100,7 +103,8 @@ footer {
   outline:none;
   cursor: pointer;
   margin-left: 5;
-  color: #ffffff;
+  font-family: 'Rakkas';
+  color: white;
 }
 
 .btn_about{
