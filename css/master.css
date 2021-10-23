@@ -68,19 +68,12 @@ footer {
 }
 
 .btn_bands{
-  display: inline-block;
-  font-size: 1.1em;
-  border-radius: 10px;
-  transition: all .5s;
-  filter: hue-rotate(0);
-  color: #FFF;
-  text-decoration: none;
-  width: 100px;
-  height: 200px;
-  background: gold;
-  box-shadow: 0 -200px 100px -120px crimson inset;
-  border: 10px solid white;
-  animation: background 3s infinite alternate;
+  background-color: Transparent;
+  border: none;
+  outline:none;
+  cursor: pointer;
+  margin-left: 5;
+  color: #ffffff;
 }
 
 .btn_songs{
@@ -88,6 +81,8 @@ footer {
   border: none;
   outline:none;
   cursor: pointer;
+  margin-left: 5;
+  color: #ffffff;
 }
 
 .btn_videos{
@@ -95,6 +90,8 @@ footer {
   border: none;
   outline:none;
   cursor: pointer;
+  margin-left: 5;
+  color: #ffffff;
 }
 
 .btn_meanings{
@@ -102,6 +99,8 @@ footer {
   border: none;
   outline:none;
   cursor: pointer;
+  margin-left: 5;
+  color: #ffffff;
 }
 
 .btn_about{
@@ -109,15 +108,9 @@ footer {
   border: none;
   outline:none;
   cursor: pointer;
+  color: #ffffff;
 }
 
 #wrappingforbuttons{
    
-}
-
-@keyframes background {
-  50% {
-    background: skyblue;
-    box-shadow: 0 -200px 100px -100px yellowgreen inset;
-  }
 }
