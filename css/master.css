@@ -67,7 +67,7 @@ footer {
   color: rgba(0, 0, 0, 0.5);
 }
 
-.btn55{
+.btn_bands{
   display: inline-block;
   font-size: 1.1em;
   border-radius: 10px;
@@ -81,6 +81,13 @@ footer {
   box-shadow: 0 -200px 100px -120px crimson inset;
   border: 10px solid white;
   animation: background 3s infinite alternate;
+}
+
+.btn_songs{
+  background-color: Transparent;
+  border: none;
+  outline:none;
+  cursor: pointer;
 }
 
 #wrappingforbuttons{
