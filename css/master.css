@@ -88,6 +88,31 @@ footer {
   border: none;
   outline:none;
   cursor: pointer;
+  position: fixed;
+}
+
+.btn_videos{
+  background-color: Transparent;
+  border: none;
+  outline:none;
+  cursor: pointer;
+  position: fixed;
+}
+
+.btn_meanings{
+  background-color: Transparent;
+  border: none;
+  outline:none;
+  cursor: pointer;
+  position: fixed;
+}
+
+.btn_about{
+  background-color: Transparent;
+  border: none;
+  outline:none;
+  cursor: pointer;
+  position: fixed;
 }
 
 #wrappingforbuttons{
