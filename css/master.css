@@ -74,6 +74,12 @@ footer {
   color: white;
   font-size: 36px;
   font-family: 'Rakkas';
+  transition: .3s ease;
+}
+
+.btn_bands:hover {
+  background-position: 90%;
+  color:#950d0d;
 }
 
 .btn_songs{
@@ -85,6 +91,12 @@ footer {
   color: white;
   font-size: 36px;
   font-family: 'Rakkas';
+  transition: .3s ease;
+}
+
+.btn_songs:hover {
+  background-position: 90%;
+  color:#950d0d;
 }
 
 .btn_videos{
@@ -96,6 +108,12 @@ footer {
   color: white;
   font-size: 36px;
   font-family: 'Rakkas';
+  transition: .3s ease;
+}
+
+.btn_videos:hover {
+  background-position: 90%;
+  color:#950d0d;
 }
 
 .btn_meanings{
@@ -107,6 +125,12 @@ footer {
   font-family: 'Rakkas';
   font-size: 36px;
   color: white;
+  transition: .3s ease;
+}
+
+.btn_meanings:hover {
+  background-position: 90%;
+  color:#950d0d;
 }
 
 .btn_about{
@@ -117,6 +141,12 @@ footer {
   font-family: 'Rakkas';
   font-size: 36px;
   color: #ffffff;
+  transition: .3s ease;
+}
+
+.btn_about:hover {
+  background-position: 90%;
+  color:#950d0d;
 }
 
 #wrappingforbuttons{
