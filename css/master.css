@@ -74,18 +74,13 @@ footer {
   color: white;
   font-size: 36px;
   font-family: 'Rakkas';
-  transition: .7s ease;
-  -moz-transition: all .7s ease-in-out;
-  -o-transition: all .7s ease-in-out;
-  -webkit-transition: all .7s ease-in-out;
+  transition: all .7s ease-in-out;
 }
 
 .btn_bands:hover {
   background-position: 90%;
   color:#ecd8b2;
-  -webkit-transform: translate(0,-15px);
-  -moz-transform: translate(0,-15px);
-  -o-transform: translate(0,-15px);
+  transform: translate(0,-15px);
 }
 
 .btn_songs{
